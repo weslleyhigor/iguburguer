@@ -108,12 +108,11 @@
 .tab_label{
     display: inline-block;
     height: 20px;
-    
     padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    font-size: 12px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 20px;
+    font-size: 16px;
     font-weight: bolder;
     color: #444;
     cursor: pointer;
@@ -123,10 +122,14 @@
     display:none;
     position: absolute;
 }
-.nav_tabs .rd_tab:checked ~ label { 
+.nav_tabs .rd_tab:checked ~ label {
+    border-bottom: solid 5px rgb(228, 228, 228); 
     background-color: #DE3030;
     color:#fff;
 }
+
+
+/*--FOMATO DOS TITULOS DOS PRODUTOS E CONTEÚDO--*/
 .tab-content{
     display: none;
     /*border-top: solid 10px #DE3030;*/
@@ -142,17 +145,40 @@
     text-align: left;
 }
 .tab-content h2{
-    padding: 10px;
-    color: #444;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    font-size: 16px;
+    font-weight: bolder;
+    color: #DE3030;
 }
 .tab-content article{
-    padding: 10px;
-    color: #555;
+    color: #444;
 }
+.cx-tema{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.cx-conteudo{
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
 
-
-/*--FOMATO DOS TITULOS DOS PRODUTOS E CONTEÚDO--*/
-
-.tema{
-    margin-left: 15%;
+    height: 150px;
+}
+.conteudo{
+    margin-top: 20px;
+    font-weight: bolder;
 }
