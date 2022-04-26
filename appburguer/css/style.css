@@ -123,7 +123,6 @@
     position: absolute;
 }
 .nav_tabs .rd_tab:checked ~ label {
-    border-bottom: solid 5px rgb(228, 228, 228); 
     background-color: #DE3030;
     color:#fff;
 }
