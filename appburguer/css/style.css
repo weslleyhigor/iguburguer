@@ -1,0 +1,158 @@
+/* -------------------- header -------------------- */
+.titulo-loja{
+    /*text-align: center;*/
+    padding-left: 15%;
+    padding-right: 15%;
+
+    background-color: #DE3030;
+    width: auto;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cx{
+
+    height: 100%;
+    text-align: center;
+}
+#nome-loja{
+    display: inline;
+    vertical-align:35%;
+    margin-left: 20%;
+    margin-right: 15%;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#carrinho{
+    display: inline-block;
+    width: 30px;
+    margin-top: 10px;
+}
+
+/*-----------perfil loja--*/
+.perfil-loja{
+    text-align: center;
+}
+#img-fundo{
+    position: absolute;
+    background-image: url(../img/capa-loja.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.6);
+
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+#img-perfil-loja{
+    display: inline-block;
+    position: relative;
+    padding: 25px;
+    width: 120px;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+#localizacao{
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;  
+}
+#status-loja{
+    display: inline-block;
+    position: relative;
+    
+    margin: auto;
+    /*margin-bottom: 24px;*/
+    padding: 12px;
+    width: 160px;
+    
+    color: #ffffff;
+    background-color: #11C24D;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+/* -------------------- end header -------------------- */
+
+/* -------------------- Main -------------------- */
+/*--Corpo da aplicação e navegação do cardapio--*/
+
+.nav_tabs{
+    margin-top: 23px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+#cx-nav{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.nav_tabs ul{
+    list-style: none;
+}
+.nav_tabs ul li{
+    display: inline;
+}
+.tab_label{
+    display: inline-block;
+    height: 20px;
+    
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #444;
+    cursor: pointer;
+    
+}
+.nav_tabs .rd_tab { 
+    display:none;
+    position: absolute;
+}
+.nav_tabs .rd_tab:checked ~ label { 
+    background-color: #DE3030;
+    color:#fff;
+}
+.tab-content{
+    display: none;
+    /*border-top: solid 10px #DE3030;*/
+    /*background-color: rgb(6,6,6,0.1);*/
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    width:100%;
+    height: 300px;
+    left:0;
+}
+.rd_tab:checked ~ .tab-content{
+    display: block;
+    text-align: left;
+}
+.tab-content h2{
+    padding: 10px;
+    color: #444;
+}
+.tab-content article{
+    padding: 10px;
+    color: #555;
+}
+
+
+/*--FOMATO DOS TITULOS DOS PRODUTOS E CONTEÚDO--*/
+
+.tema{
+    margin-left: 15%;
+}
